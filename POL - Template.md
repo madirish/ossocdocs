@@ -12,11 +12,15 @@ Scope that the policy applies to.  If the scope is self evident then this sectio
 ## Policy Statement
 This is the overarching statement of the policy itself.  This should be rather robust and descriptive.
 ### Policy Elements
-1. **Element One**
+#### 1. **Element One**
 	1. This is the first component of the policy
-2. **Element Two**
+#### 2. **Element Two**
 	1. And so forth
-Policy Review
+
+## Enforcement and Compliance
+compliance statement
+
+## Policy Review
 This policy will be reviewed at least annually by SOC leadership.
 
 Effective Date:
