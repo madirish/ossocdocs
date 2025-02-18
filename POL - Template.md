@@ -21,7 +21,7 @@ This is the overarching statement of the policy itself.  This should be rather r
 compliance statement
 
 ## Policy Review
-This policy will be reviewed at least annually by SOC leadership.
+This policy will be reviewed annually by all employees to ensure its continued relevance and effectiveness. Feedback and suggestions for improvement are welcome and should be directed to the SOC Leadership.
 
 Effective Date:
 
