@@ -15,8 +15,7 @@ This process applies to all SOC analysts responsible for investigating security 
 ## Process Steps
 ### Step 1 - Create a Ticket
 - SOC analysts should assign security alerts in the queue based on priority and availability.
-- Analysts must acknowledge ownership of an alert in the ticketing platform. If a ticket doesn’t exist the SOC Analsyt should create one and assign it to themselves.
-    
+- Analysts must acknowledge ownership of an alert in the ticketing platform. If a ticket doesn’t exist the SOC Analyst should create one and assign it to themselves.
 
 ### Step 2 - Initial Triage and Investigation
 - Gather alert details, including:

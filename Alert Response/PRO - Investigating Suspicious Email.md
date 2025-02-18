@@ -24,6 +24,11 @@ The scope includes:
 | Malware Analysis Team                     | Analyzes any suspected malware contained within email attachments.<br>Provides assessments on malware impact and possible containment actions.                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Identity and Access Management (IAM) Team | Resets credentials for users suspected of compromise due to phishing or credential theft.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 ## Process Steps
+### **Step 0:  Create a Ticket for Tracking**
+
+*  SOC analysts should assign security alerts in the queue based on priority and availability.
+- Analysts must acknowledge ownership of an alert in the ticketing platform. If a ticket doesn’t exist the SOC Analyst should create one and assign it to themselves.
+
 ### **Step 1: Initial Triage and Analysis**
 
 - Review the reported email to determine if it is suspicious or malicious.
