@@ -1,3 +1,4 @@
+# Open Source (OS) Security Operations Center (SOC) Documents (Docs)
 ## Introduction
 
 Welcome to OSSOCDOCS, an open-source initiative dedicated to providing comprehensive documentation for Security Operations Centers (SOCs). This project is the culmination of nearly a decade of experience in building, managing, and refining SOCs, including Fusion Centers—which integrate operational security with advanced Blue Team (defensive) cybersecurity services.
