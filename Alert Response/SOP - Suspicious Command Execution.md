@@ -36,7 +36,16 @@ Before beginning an investigation, SOC Analysts must:
 
 ## Procedure Steps
 
-### **Step 1: Review the Detection Alert**
+### **Step 1: Create a Ticket in the Tracking Platform**
+
+- Create a ticket for tracking if one does not already exist.
+- Log all investigative activities in the ticketing system.
+- Include:
+    - The email address or domain under investigation.
+    - The alert or incident source.
+    - Date and time of detection.
+    - Initial assessment details.
+### **Step 2: Review the Detection Alert**
 
 - Gather alert details from SIEM, EDR, or other monitoring tools, including:
     - Command executed (e.g., `powershell.exe -exec bypass -encodedCommand...`)
@@ -45,7 +54,7 @@ Before beginning an investigation, SOC Analysts must:
     - Process lineage (parent process and child processes)
     - Execution timestamp
 
-### **Step 2: Assess the Context of the Executing User**
+### **Step 3: Assess the Context of the Executing User**
 
 - Identify the user account that executed the command:
     - Is the account a known IT administrator?
@@ -55,7 +64,7 @@ Before beginning an investigation, SOC Analysts must:
     - Check authentication logs for anomalous logins.
     - Review whether the account has engaged in similar command executions previously.
 
-### **Step 3: Analyze the Nature of the Command Execution**
+### **Step 4: Analyze the Nature of the Command Execution**
 
 - Check for obfuscation techniques:
     - Encoded commands (e.g., `-encodedCommand`, `Base64 encoding`)
@@ -70,28 +79,28 @@ Before beginning an investigation, SOC Analysts must:
     - Running scripts from hidden locations (`C:\Windows\Temp\`, `C:\Users\Public\`)
     - Use of Living Off the Land Binaries (LOLBins) (e.g., `rundll32.exe`, `certutil.exe`, `mshta.exe`, `wmic.exe`)
 
-### **Step 4: Compare Against Normal Environmental Behavior**
+### **Step 5: Compare Against Normal Environmental Behavior**
 
 - Query SIEM/EDR logs to determine:
     - How frequently this command has been executed in the environment.
     - Whether this behavior has been seen from the same user, host, or department before.
     - If there are correlated alerts or anomalies from the same source system.
 
-### **Step 5: Determine Legitimacy**
+### **Step 6: Determine Legitimacy**
 
 - If the command aligns with known IT administrative tasks, no further action is required, but documentation should be maintained.
 - If the command is highly unusual for the executing user/system, proceed with out-of-band verification:
     - Do not contact the user directly via their compromised account or workstation.
     - Use alternative communication channels (e.g., secure email, phone, ticketing system) to validate activity.
 
-### **Step 6: Escalate to Incident Response (if needed)**
+### **Step 7: Escalate to Incident Response (if needed)**
 
 - If malicious activity is confirmed or uncertainty remains, escalate to the Incident Response Team (IRT) with:
     - Summary of findings (command details, user behavior, risk factors).
     - Indicators of compromise (IoCs) (if applicable).
     - Recommendations for containment (e.g., account lockout, host isolation).
 
-### **Step 7: Document the Investigation**
+### **Step 8: Document the Investigation**
 
 - Log findings in the case management system, including:
     - The command and its context
@@ -99,14 +108,14 @@ Before beginning an investigation, SOC Analysts must:
     - Actions taken (investigation, escalation, remediation, no further action)
     - Lessons learned for refining detection logic
 
-### **Step 8: Improve Detection Engineering and Response**
+### **Step 9: Improve Detection Engineering and Response**
 
 - If the alert was a false positive, recommend tuning the detection to reduce noise while maintaining security coverage.
 - If the alert was valid, coordinate with Detection Engineering to:
     - Enhance detection logic (e.g., detecting command obfuscation).
     - Develop **new alerting rules** to cover related activity patterns.
 
-## **6. Conclusion**
+## Conclusion
 
 Investigating suspicious command execution requires context-aware analysis to differentiate between legitimate IT administration and potential attacker activity. Given the high rate of false positives with LOTL techniques, SOC Analysts must carefully assess the user, execution context, and intent behind suspicious commands. In cases of uncertainty, escalation to Incident Response is critical. Additionally, OPSEC considerations must be maintained to prevent tipping off potential adversaries.
 

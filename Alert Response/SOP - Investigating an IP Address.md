@@ -30,8 +30,6 @@ Before conducting an investigation, the following must be in place:
 | Cyber Threat Intelligence Team | Validates findings and provides additional threat context.<br>Updates internal threat intelligence repositories with relevant indicators.<br>Assists in making final determinations regarding IP reputation and risk level.                                                                                                                       |
 | Networking and IT Teams        | Implements temporary or permanent IP blocking when necessary.<br>Assesses operational risks associated with blocking actions.<br>Provides additional network insights if needed.                                                                                                                                                                  |
 
-## Workflow Diagram
-[Insert visual diagram of the SOP workflow]
 
 ## Procedure Steps
 ### **Step 1: Create a Ticket in the Tracking Platform**
