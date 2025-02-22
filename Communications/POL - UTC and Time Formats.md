@@ -18,7 +18,7 @@ All timestamps must be converted from local time to UTC before inclusion in inve
 
 #### 2. Standard Format
 
-UTC timestamps should be presented in a standard format (e.g., YYYY-MM-DD HH:MM:SS UTC).
+UTC timestamps should be presented in a standard format (e.g., YYYY-MM-DD HH:MM:SS UTC). 
 
 #### 3. Day Format
 
