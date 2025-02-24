@@ -26,6 +26,8 @@ The SOC should maintain a comprehensive library of detection rules and metrics t
     - Detection rules must follow a structured lifecycle, beginning with development, followed by deployment, testing, and periodic evaluation. Rules should be adjusted or decommissioned based on performance and evolving threats.
     - Regular reviews of existing detection rules must occur to ensure they remain relevant and effective against current and emerging threats.
     - The lifecycle of each detection rule will include clear documentation, version control, and performance metrics.
+    - The Detection Engineering team must maintain an open backlog of prioritized detections for new development.
+    - Regular (weekly) meetings should be conducted to review the state of detection engineering, evaluate tuning requests, prioritize new detections, and plan detection development.
 2. **Continuous Evaluation of Detection Rules**
     - The SOC, along with Threat Hunt, Red Team, and Purple Team, must continuously evaluate the true positive and false positive rates of detection rules.
     - Periodic assessments will be conducted to ensure the accuracy and efficacy of detection mechanisms in identifying genuine threats without overwhelming analysts with false alarms.

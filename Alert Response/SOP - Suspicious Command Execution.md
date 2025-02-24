@@ -56,6 +56,8 @@ Before beginning an investigation, SOC Analysts must:
 
 ### **Step 3: Assess the Context of the Executing User**
 
+- Is the command indicative of a known hacking tool?
+	- [[SOP - Known Hacking Tools]]
 - Identify the user account that executed the command:
     - Is the account a known IT administrator?
     - Is the account service-related, or is it tied to an end user?
