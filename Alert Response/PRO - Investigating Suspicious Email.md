@@ -32,7 +32,7 @@ The scope includes:
 ### **Step 1: Initial Triage and Analysis**
 
 - Review the reported email to determine if it is suspicious or malicious.
-	- Ref [[SOP - Investigating an Email Address or Domain]]
+	- Ref [[SOP - Investigating an Email Address or Email Domain]]
 - Extract and analyze email headers, body content, and attachments for signs of phishing, malware, or fraud.
 	- Ref [[SOP - Investigating an IP Address]]
 - Use cyber threat intelligence sources and sandbox environments to further assess potential threats.
