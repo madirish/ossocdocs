@@ -20,22 +20,22 @@ SOC documentation follows a structured **pyramid approach**, where each layer bu
 
 1. **Runbooks (SOPs – Standard Operating Procedures)**
     - The foundation of SOC documentation.
-    - **Step-by-step, button-click-by-button-click instructions** for specific security operations.
+    - Step-by-step, button-click-by-button-click instructions for specific security operations.
     - Examples: Investigating a URL for malicious activity, responding to a specific alert, executing containment actions.
 2. **Process Documentation**
-    - **Higher-level workflows** that describe a series of actions needed to complete a SOC function.
-    - Each step within a process is typically **linked to a corresponding SOP**.
+    - Higher-level workflows that describe a series of actions needed to complete a SOC function.
+    - Each step within a process is typically linked to a corresponding SOP.
     - Examples: Threat intelligence analysis workflows, escalation processes, incident response procedures.
 3. **Policy and Governance Documentation**
-    - Defines the **authorities, objectives, and boundaries** of a SOC.
-    - Establishes **what a SOC and its analysts can and cannot do** in specific situations.
+    - Defines the authorities, objectives, and boundaries of a SOC.
+    - Establishes what a SOC and its analysts can and cannot do in specific situations.
     - Examples: Acceptable use policies for security tools, incident escalation policies, regulatory compliance guidelines.
 
 Despite the critical role of documentation, most SOCs must create their documentation from scratch, often without standardization or shared best practices. Even many Managed Security Service Providers (MSSPs) that claim to provide documentation often offer only generic runbooks with little operational depth.
 
 ## The Mission of OSSOCDOCS
 
-The **OSSOCDOCS** project aims to bridge this gap by providing:
+The OSSOCDOCS project aims to bridge this gap by providing:
 
 - A comprehensive library of SOC documentation, including SOPs, policies, processes, and best practices.
 - Resources to help SOC managers establish, refine, and mature their operations.
