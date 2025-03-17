@@ -20,7 +20,7 @@ This SOP applies to all SOC analysts, Incident Response (IR) teams, and Identity
 | Data Privacy Team            | Investigate unauthorized data access and support regulatory compliance efforts.                                                                                                                         |
 | Cybersecurity Awareness Team | Track trends in compromised credentials and implement user training programs to mitigate risk.                                                                                                          |
 
-## Procedure Steps
+## Process Steps
 
 ### 1. **Detection & Triage**
 - Review alerts related to compromised credentials, including:
@@ -37,10 +37,7 @@ This SOP applies to all SOC analysts, Incident Response (IR) teams, and Identity
 - If impact is minimal, proceed with credential resets and token expiration.
 
 ### 3. **Credential Reset & Security Enforcement**
-- Work with the IAM team to reset compromised credentials.    
-- Expire any active authentication tokens.
-- Verify compliance with password policy minimums.
-- Confirm MFA is enabled for the affected account.
+- Follow [[SOP - Credential Reset]]
 
 ### 4. **Threat Actor Investigation**
 - Review authentication activity to identify unauthorized access attempts.    
