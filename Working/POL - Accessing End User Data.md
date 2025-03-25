@@ -14,7 +14,7 @@ This policy applies to all SOC teammates.
 | Legal, HR, or Data Privacy | Review requests and respond in a timely manner.                                                            |
 ### Policy Statement
 
-In order to preserve the privacy of CSL end users, members of the SOC team must seek formal approval prior to accessing any information on an end user machine. Because there are regional privacy implications to data access this approval must be submitted to legal and formally documented and accepted prior to any access.
+In order to preserve the privacy of end users, members of the SOC team must seek formal approval prior to accessing any information on an end user machine. Because there are regional privacy implications to data access this approval must be submitted to legal and formally documented and accepted prior to any access.
 
 ## Policy Elements
 
