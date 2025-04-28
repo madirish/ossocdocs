@@ -25,7 +25,7 @@ This SOP applies to all Threat Intelligence (TI) analysts, Security Operations C
 - Monitor domain registration feeds and threat intelligence alerts for look-alike domains.
 - Assess the similarity of detected domains to priority brands, product names, or trademarks.
 ### 2. **Domain Investigation**
-- Follow the [[SOP - Investigate a Suspicious Domain Registration]] to evaluate:
+- Follow the [[SOP - Investigating Suspicious Domain Registration]] to evaluate:
     - WHOIS registration details
     - Hosting provider and IP geolocation
     - Website content and functionality
